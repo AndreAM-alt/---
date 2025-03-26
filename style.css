@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #006600; /* Зеленый цвет */
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 3em;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+img {
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    caret-color: white;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+    color: lightgray;
+}
+
+input[type="text"]:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+}
